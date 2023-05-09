@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react-live",
+  "version": "1.0.0",
+  "description": "This is react zero to hero course",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyankaBasnet/namsateReact.git"
+  },
+  "author": "Priyanka Basnet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriyankaBasnet/namsateReact/issues"
+  },
+  "homepage": "https://github.com/PriyankaBasnet/namsateReact#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1"
+  }
+}

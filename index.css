@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar .nav-items {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.resturant-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    width: 254px;
+}
+
+.card img {
+    width: 100%;
+
+}
+
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    width: 300px;
+    height : 40px;
+    padding: 5px;
+}
+
+.search-container button {
+    width: 100px;
+    height : 40px;
+    padding: 2px;
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    color: white;
+}
